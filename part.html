@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 33%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+H1{
+    color: aliceblue;
+    background-color: black;
+    border: #777;
+    border-style: ridge;
+    border-width: 15px;
+    text-align: center;
+    
+}
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 70%;
+}
+body {
+  background-image: url(partbg.jpg)
+  
+}
+.west {
+  height:800px;
+    width:1000px;
+    object-fit: cover;
+margin-left: 200px;
+   
+}
+
+</style>
+</head>
+<body>
+
+  <div class="bg-text"><h1>WELCOME TO THE WESTERN PART OF INDIA</h1></div> 
+<div class="west">
+<img src="csmt.webp"> </div>
+<div style="padding:6px;">
+  <h3>
+    <p> Western India is a loosely defined region of India consisting of western states of Republic of India.The region consists of the predominantly arid to semi-arid region of Saurashtra and Kutch in the North. The region South of that of Cambay and Southern Gujarat makes the northern semi arid region and the southern humid region submerge. The Western Ghats lie along the coast of South Gujarat, Maharashtra and Goa. The Deccan plains of the Vidarbha, Marathwada in central and eastern Maharashtra define the rest of the region</p>
+    <p>Marathi, Gujarati and Kokani are widely spoken languages in Western India.Boasting of a rich cultural heritage, this part of the country houses some exemplary tourist sites including magnificent monuments, which are embodiments of the glorious architectural heritage of ancient India. Besides, the temperate climate in west India supports the growth of uniquely varied flora and fauna. Hence, some of the finest and best known wildlife sanctuaries are located in West India.
+
+      West India Tourism covers various places worth visiting </p> </h3>
+  </div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="mh.html">
+      <img src="mh.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc"> <b> MAHARASHTRA </b> <br> It is a state in the western peninsular region of India occupying a substantial portion of the Deccan Plateau</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gu.html">
+      <img src="gu.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc"><b> GUJURAT</b> <br> Gujurat is a state along the western coast of India. Its coastline  is the longest in the country, most of which lies on the Kathiawar peninsula</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="goa.html">
+      <img src="Go.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc"><b> GOA</b> <br> Goa is a state on the southwestern coast of India within the Konkan region, geographically separated from the Deccan highlands by the Western Ghats</div>
+  </div>
+</div>
+
+
+
+<div class="clearfix"></div>
+
+
+
+</body>
+</html>
+
+

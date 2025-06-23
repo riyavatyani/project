@@ -1,0 +1,70 @@
+H1{
+  color: aliceblue;
+  background-color: black;
+  border: #777;
+  border-style: ridge;
+  border-width: 15px;
+  text-align: center;
+}
+P{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  font-size: large;
+  align-items: center;
+
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* bg heading */
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 50%;
+  width: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("KASHMIR.webp"); }
+
+a{
+text-decoration: none;
+}
+/* yaha tr */
+
+/* slideshow yaha se */
+div.scroll-container {
+  background-color: #6e7a7c;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+/* yaha takk */
+
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(53, 48, 48);
+  color: white;
+  text-align: left;
+}
